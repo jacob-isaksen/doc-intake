@@ -1,0 +1,30 @@
+{
+  "expected": {
+    "doc_type": "invoice",
+    "doc_number": "INV-52265",
+    "doc_date": "2026-06-23",
+    "counterparty": "Larch Creek Saw Supply",
+    "equipment": null,
+    "line_items": [
+      {
+        "description": "Planer knife set",
+        "quantity": 4.0,
+        "unit_price": 426.9,
+        "amount": 1707.6,
+        "weight_lb": null
+      },
+      {
+        "description": "Bandsaw blade 1.5in x 24ft",
+        "quantity": 12.0,
+        "unit_price": 212.34,
+        "amount": 2548.08,
+        "weight_lb": null
+      }
+    ],
+    "subtotal": 4255.68,
+    "tax": 255.34,
+    "total": 4511.02,
+    "total_weight_lb": null
+  },
+  "expected_status": "ok"
+}

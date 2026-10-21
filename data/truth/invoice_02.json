@@ -1,0 +1,37 @@
+{
+  "expected": {
+    "doc_type": "invoice",
+    "doc_number": "INV-15695",
+    "doc_date": "2026-08-11",
+    "counterparty": "Ponderosa Hydraulics Inc",
+    "equipment": null,
+    "line_items": [
+      {
+        "description": "Conveyor belting 24in (ft)",
+        "quantity": 31.0,
+        "unit_price": 26.94,
+        "amount": 835.14,
+        "weight_lb": null
+      },
+      {
+        "description": "Chain lube 5gal pail",
+        "quantity": 7.0,
+        "unit_price": 85.73,
+        "amount": 600.11,
+        "weight_lb": null
+      },
+      {
+        "description": "Bandsaw blade 1.5in x 24ft",
+        "quantity": 11.0,
+        "unit_price": 201.16,
+        "amount": 2212.76,
+        "weight_lb": null
+      }
+    ],
+    "subtotal": 3648.01,
+    "tax": 218.88,
+    "total": 3866.89,
+    "total_weight_lb": null
+  },
+  "expected_status": "ok"
+}

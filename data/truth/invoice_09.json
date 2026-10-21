@@ -1,0 +1,37 @@
+{
+  "expected": {
+    "doc_type": "invoice",
+    "doc_number": "INV-24662",
+    "doc_date": "2026-10-08",
+    "counterparty": "Kootenai Safety Supply",
+    "equipment": null,
+    "line_items": [
+      {
+        "description": "Diesel fuel (gal)",
+        "quantity": 730.0,
+        "unit_price": 4.23,
+        "amount": 3087.9,
+        "weight_lb": null
+      },
+      {
+        "description": "Chain lube 5gal pail",
+        "quantity": 10.0,
+        "unit_price": 87.72,
+        "amount": 877.2,
+        "weight_lb": null
+      },
+      {
+        "description": "Planer knife set",
+        "quantity": 3.0,
+        "unit_price": 522.38,
+        "amount": 1567.14,
+        "weight_lb": null
+      }
+    ],
+    "subtotal": 5532.24,
+    "tax": 331.93,
+    "total": 5864.17,
+    "total_weight_lb": null
+  },
+  "expected_status": "ok"
+}

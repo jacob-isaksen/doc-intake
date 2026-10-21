@@ -1,0 +1,30 @@
+{
+  "expected": {
+    "doc_type": "bill_of_lading",
+    "doc_number": "BOL-764280",
+    "doc_date": "2026-06-02",
+    "counterparty": "Summit Fence & Deck",
+    "equipment": null,
+    "line_items": [
+      {
+        "description": "4x4x8 Treated post, bundle",
+        "quantity": 15.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 43995.0
+      },
+      {
+        "description": "2x10x16 Larch #2, bundle",
+        "quantity": 7.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 22883.0
+      }
+    ],
+    "subtotal": null,
+    "tax": null,
+    "total": null,
+    "total_weight_lb": 66878.0
+  },
+  "expected_status": "ok"
+}

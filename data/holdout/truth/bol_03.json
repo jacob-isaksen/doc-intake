@@ -1,0 +1,44 @@
+{
+  "expected": {
+    "doc_type": "bill_of_lading",
+    "doc_number": "BOL-459021",
+    "doc_date": "2026-06-13",
+    "counterparty": "Treeline Truss & Panel",
+    "equipment": null,
+    "line_items": [
+      {
+        "description": "2x6x10 Douglas Fir #2, bundle",
+        "quantity": 3.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 8868.0
+      },
+      {
+        "description": "2x10x16 Larch #2, bundle",
+        "quantity": 15.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 49755.0
+      },
+      {
+        "description": "2x4x8 SPF stud, bundle",
+        "quantity": 8.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 17272.0
+      },
+      {
+        "description": "4x4x8 Treated post, bundle",
+        "quantity": 17.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 49079.0
+      }
+    ],
+    "subtotal": null,
+    "tax": null,
+    "total": null,
+    "total_weight_lb": 124974.0
+  },
+  "expected_status": "ok"
+}

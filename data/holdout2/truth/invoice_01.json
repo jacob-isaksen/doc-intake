@@ -1,0 +1,37 @@
+{
+  "expected": {
+    "doc_type": "invoice",
+    "doc_number": "INV-23374",
+    "doc_date": "2026-08-25",
+    "counterparty": "Ponderosa Hydraulics Inc",
+    "equipment": null,
+    "line_items": [
+      {
+        "description": "Diesel fuel (gal)",
+        "quantity": 579.0,
+        "unit_price": 4.5,
+        "amount": 2605.5,
+        "weight_lb": null
+      },
+      {
+        "description": "Bandsaw blade 1.5in x 24ft",
+        "quantity": 8.0,
+        "unit_price": 185.59,
+        "amount": 1484.72,
+        "weight_lb": null
+      },
+      {
+        "description": "Conveyor belting 24in (ft)",
+        "quantity": 60.0,
+        "unit_price": 31.52,
+        "amount": 1891.2,
+        "weight_lb": null
+      }
+    ],
+    "subtotal": 5981.42,
+    "tax": 358.89,
+    "total": 6340.31,
+    "total_weight_lb": null
+  },
+  "expected_status": "ok"
+}

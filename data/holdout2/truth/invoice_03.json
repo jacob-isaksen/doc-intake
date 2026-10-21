@@ -1,0 +1,44 @@
+{
+  "expected": {
+    "doc_type": "invoice",
+    "doc_number": "INV-94600",
+    "doc_date": "2026-10-13",
+    "counterparty": "Panhandle Industrial Belting",
+    "equipment": null,
+    "line_items": [
+      {
+        "description": "Bandsaw blade 1.5in x 24ft",
+        "quantity": 10.0,
+        "unit_price": 214.75,
+        "amount": 2147.5,
+        "weight_lb": null
+      },
+      {
+        "description": "Planer knife set",
+        "quantity": 4.0,
+        "unit_price": 529.74,
+        "amount": 2118.96,
+        "weight_lb": null
+      },
+      {
+        "description": "Safety glasses (box of 12)",
+        "quantity": 4.0,
+        "unit_price": 45.49,
+        "amount": 181.96,
+        "weight_lb": null
+      },
+      {
+        "description": "Chain lube 5gal pail",
+        "quantity": 2.0,
+        "unit_price": 85.73,
+        "amount": 171.46,
+        "weight_lb": null
+      }
+    ],
+    "subtotal": 4619.88,
+    "tax": 277.19,
+    "total": 4897.07,
+    "total_weight_lb": null
+  },
+  "expected_status": "ok"
+}

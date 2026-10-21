@@ -1,0 +1,37 @@
+{
+  "expected": {
+    "doc_type": "invoice",
+    "doc_number": "INV-62961",
+    "doc_date": "2026-08-24",
+    "counterparty": "Inland Fuel & Lube",
+    "equipment": null,
+    "line_items": [
+      {
+        "description": "Roller chain #80 (ft)",
+        "quantity": 145.0,
+        "unit_price": 14.51,
+        "amount": 2103.95,
+        "weight_lb": null
+      },
+      {
+        "description": "Planer knife set",
+        "quantity": 1.0,
+        "unit_price": 557.3,
+        "amount": 557.3,
+        "weight_lb": null
+      },
+      {
+        "description": "Hydraulic hose 3/4in x 50ft",
+        "quantity": 4.0,
+        "unit_price": 106.59,
+        "amount": 426.36,
+        "weight_lb": null
+      }
+    ],
+    "subtotal": 3087.61,
+    "tax": null,
+    "total": 3087.61,
+    "total_weight_lb": null
+  },
+  "expected_status": "ok"
+}

@@ -1,0 +1,51 @@
+{
+  "expected": {
+    "doc_type": "invoice",
+    "doc_number": "INV-40161",
+    "doc_date": "2026-10-14",
+    "counterparty": "Tamarack Bearing & Chain",
+    "equipment": null,
+    "line_items": [
+      {
+        "description": "Conveyor belting 24in (ft)",
+        "quantity": 105.0,
+        "unit_price": 30.45,
+        "amount": 3197.25,
+        "weight_lb": null
+      },
+      {
+        "description": "Roller chain #80 (ft)",
+        "quantity": 86.0,
+        "unit_price": 15.3,
+        "amount": 1315.8,
+        "weight_lb": null
+      },
+      {
+        "description": "Chain lube 5gal pail",
+        "quantity": 9.0,
+        "unit_price": 65.39,
+        "amount": 588.51,
+        "weight_lb": null
+      },
+      {
+        "description": "Diesel fuel (gal)",
+        "quantity": 860.0,
+        "unit_price": 3.85,
+        "amount": 3311.0,
+        "weight_lb": null
+      },
+      {
+        "description": "Safety glasses (box of 12)",
+        "quantity": 1.0,
+        "unit_price": 49.77,
+        "amount": 49.77,
+        "weight_lb": null
+      }
+    ],
+    "subtotal": 8462.33,
+    "tax": 507.74,
+    "total": 8970.07,
+    "total_weight_lb": null
+  },
+  "expected_status": "ok"
+}

@@ -1,0 +1,51 @@
+{
+  "expected": {
+    "doc_type": "invoice",
+    "doc_number": "INV-69429",
+    "doc_date": "2026-07-02",
+    "counterparty": "Kootenai Safety Supply",
+    "equipment": null,
+    "line_items": [
+      {
+        "description": "Hydraulic hose 3/4in x 50ft",
+        "quantity": 3.0,
+        "unit_price": 120.98,
+        "amount": 362.94,
+        "weight_lb": null
+      },
+      {
+        "description": "Bearing 6310 2RS",
+        "quantity": 26.0,
+        "unit_price": 29.88,
+        "amount": 776.88,
+        "weight_lb": null
+      },
+      {
+        "description": "Planer knife set",
+        "quantity": 2.0,
+        "unit_price": 587.81,
+        "amount": 1175.62,
+        "weight_lb": null
+      },
+      {
+        "description": "Chain lube 5gal pail",
+        "quantity": 3.0,
+        "unit_price": 85.95,
+        "amount": 257.85,
+        "weight_lb": null
+      },
+      {
+        "description": "Safety glasses (box of 12)",
+        "quantity": 1.0,
+        "unit_price": 45.6,
+        "amount": 45.6,
+        "weight_lb": null
+      }
+    ],
+    "subtotal": 2618.89,
+    "tax": 157.13,
+    "total": 2776.02,
+    "total_weight_lb": null
+  },
+  "expected_status": "ok"
+}

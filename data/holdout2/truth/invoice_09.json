@@ -1,0 +1,51 @@
+{
+  "expected": {
+    "doc_type": "invoice",
+    "doc_number": "INV-97665",
+    "doc_date": "2026-08-14",
+    "counterparty": "Panhandle Industrial Belting",
+    "equipment": null,
+    "line_items": [
+      {
+        "description": "Chain lube 5gal pail",
+        "quantity": 3.0,
+        "unit_price": 79.63,
+        "amount": 238.89,
+        "weight_lb": null
+      },
+      {
+        "description": "Diesel fuel (gal)",
+        "quantity": 1191.0,
+        "unit_price": 4.15,
+        "amount": 4942.65,
+        "weight_lb": null
+      },
+      {
+        "description": "Bearing 6310 2RS",
+        "quantity": 27.0,
+        "unit_price": 31.67,
+        "amount": 855.09,
+        "weight_lb": null
+      },
+      {
+        "description": "Safety glasses (box of 12)",
+        "quantity": 6.0,
+        "unit_price": 38.41,
+        "amount": 230.46,
+        "weight_lb": null
+      },
+      {
+        "description": "Planer knife set",
+        "quantity": 4.0,
+        "unit_price": 610.35,
+        "amount": 2441.4,
+        "weight_lb": null
+      }
+    ],
+    "subtotal": 8708.49,
+    "tax": 522.51,
+    "total": 9443.4,
+    "total_weight_lb": null
+  },
+  "expected_status": "flagged"
+}

@@ -1,0 +1,30 @@
+{
+  "expected": {
+    "doc_type": "bill_of_lading",
+    "doc_number": "BOL-413014",
+    "doc_date": null,
+    "counterparty": "Summit Fence & Deck",
+    "equipment": null,
+    "line_items": [
+      {
+        "description": "1x6x8 Cedar fence board, bundle",
+        "quantity": 9.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 12879.0
+      },
+      {
+        "description": "2x10x16 Larch #2, bundle",
+        "quantity": 16.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 53376.0
+      }
+    ],
+    "subtotal": null,
+    "tax": null,
+    "total": null,
+    "total_weight_lb": 66255.0
+  },
+  "expected_status": "flagged"
+}

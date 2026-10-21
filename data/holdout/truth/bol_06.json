@@ -1,0 +1,44 @@
+{
+  "expected": {
+    "doc_type": "bill_of_lading",
+    "doc_number": "BOL-342804",
+    "doc_date": "2026-09-06",
+    "counterparty": "Harbor Point Lumber Yard",
+    "equipment": null,
+    "line_items": [
+      {
+        "description": "4x4x8 Treated post, bundle",
+        "quantity": 12.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 38568.0
+      },
+      {
+        "description": "2x6x10 Douglas Fir #2, bundle",
+        "quantity": 22.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 62106.0
+      },
+      {
+        "description": "1x6x8 Cedar fence board, bundle",
+        "quantity": 8.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 10056.0
+      },
+      {
+        "description": "2x4x8 SPF stud, bundle",
+        "quantity": 7.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 17346.0
+      }
+    ],
+    "subtotal": null,
+    "tax": null,
+    "total": null,
+    "total_weight_lb": 128076.0
+  },
+  "expected_status": "ok"
+}

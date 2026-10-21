@@ -1,0 +1,30 @@
+{
+  "expected": {
+    "doc_type": "invoice",
+    "doc_number": "INV-62213",
+    "doc_date": "2026-08-21",
+    "counterparty": "Ponderosa Hydraulics Inc",
+    "equipment": null,
+    "line_items": [
+      {
+        "description": "Chain lube 5gal pail",
+        "quantity": 10.0,
+        "unit_price": 65.79,
+        "amount": 657.9,
+        "weight_lb": null
+      },
+      {
+        "description": "Diesel fuel (gal)",
+        "quantity": 1391.0,
+        "unit_price": 4.19,
+        "amount": 5828.29,
+        "weight_lb": null
+      }
+    ],
+    "subtotal": 6486.19,
+    "tax": 389.17,
+    "total": 6875.36,
+    "total_weight_lb": null
+  },
+  "expected_status": "ok"
+}

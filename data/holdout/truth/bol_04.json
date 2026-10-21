@@ -1,0 +1,30 @@
+{
+  "expected": {
+    "doc_type": "bill_of_lading",
+    "doc_number": "BOL-686888",
+    "doc_date": "2026-08-09",
+    "counterparty": "Harbor Point Lumber Yard",
+    "equipment": null,
+    "line_items": [
+      {
+        "description": "4x4x8 Treated post, bundle",
+        "quantity": 24.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 71544.0
+      },
+      {
+        "description": "2x6x10 Douglas Fir #2, bundle",
+        "quantity": 22.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 68002.0
+      }
+    ],
+    "subtotal": null,
+    "tax": null,
+    "total": null,
+    "total_weight_lb": 139546.0
+  },
+  "expected_status": "ok"
+}

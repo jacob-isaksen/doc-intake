@@ -1,0 +1,30 @@
+{
+  "expected": {
+    "doc_type": "work_order",
+    "doc_number": "WO-3516",
+    "doc_date": "2026-07-19",
+    "counterparty": "Summit Hydraulic Repair",
+    "equipment": "Green chain",
+    "line_items": [
+      {
+        "description": "Labor: electrician",
+        "quantity": 12.0,
+        "unit_price": 105.0,
+        "amount": 1260.0,
+        "weight_lb": null
+      },
+      {
+        "description": "Drive belt B85",
+        "quantity": 2.0,
+        "unit_price": 41.42,
+        "amount": 82.84,
+        "weight_lb": null
+      }
+    ],
+    "subtotal": null,
+    "tax": null,
+    "total": 1432.84,
+    "total_weight_lb": null
+  },
+  "expected_status": "flagged"
+}

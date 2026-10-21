@@ -1,0 +1,37 @@
+{
+  "expected": {
+    "doc_type": "work_order",
+    "doc_number": "WO-4185",
+    "doc_date": "2026-09-14",
+    "counterparty": "Summit Hydraulic Repair",
+    "equipment": "Debarker",
+    "line_items": [
+      {
+        "description": "Labor: millwright",
+        "quantity": 14.0,
+        "unit_price": 85.0,
+        "amount": 1190.0,
+        "weight_lb": null
+      },
+      {
+        "description": "Bearing 6310 2RS",
+        "quantity": 2.0,
+        "unit_price": 33.39,
+        "amount": 66.78,
+        "weight_lb": null
+      },
+      {
+        "description": "Hydraulic cylinder seal kit",
+        "quantity": 4.0,
+        "unit_price": 90.98,
+        "amount": 363.92,
+        "weight_lb": null
+      }
+    ],
+    "subtotal": null,
+    "tax": null,
+    "total": 1620.7,
+    "total_weight_lb": null
+  },
+  "expected_status": "ok"
+}

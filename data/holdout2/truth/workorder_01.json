@@ -1,0 +1,44 @@
+{
+  "expected": {
+    "doc_type": "work_order",
+    "doc_number": "WO-6669",
+    "doc_date": "2026-09-13",
+    "counterparty": "Ridgeline Millwright Services",
+    "equipment": "Planer #2",
+    "line_items": [
+      {
+        "description": "Labor: electrician",
+        "quantity": 14.0,
+        "unit_price": 120.0,
+        "amount": 1680.0,
+        "weight_lb": null
+      },
+      {
+        "description": "Drive belt B85",
+        "quantity": 2.0,
+        "unit_price": 28.67,
+        "amount": 57.34,
+        "weight_lb": null
+      },
+      {
+        "description": "Bearing 6310 2RS",
+        "quantity": 2.0,
+        "unit_price": 54.38,
+        "amount": 108.76,
+        "weight_lb": null
+      },
+      {
+        "description": "Hydraulic cylinder seal kit",
+        "quantity": 1.0,
+        "unit_price": 84.67,
+        "amount": 84.67,
+        "weight_lb": null
+      }
+    ],
+    "subtotal": null,
+    "tax": null,
+    "total": 1930.77,
+    "total_weight_lb": null
+  },
+  "expected_status": "ok"
+}

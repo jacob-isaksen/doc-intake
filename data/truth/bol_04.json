@@ -1,0 +1,44 @@
+{
+  "expected": {
+    "doc_type": "bill_of_lading",
+    "doc_number": "BOL-161324",
+    "doc_date": null,
+    "counterparty": "Harbor Point Lumber Yard",
+    "equipment": null,
+    "line_items": [
+      {
+        "description": "4x4x8 Treated post, bundle",
+        "quantity": 3.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 8475.0
+      },
+      {
+        "description": "2x4x8 SPF stud, bundle",
+        "quantity": 20.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 46880.0
+      },
+      {
+        "description": "2x10x16 Larch #2, bundle",
+        "quantity": 18.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 66060.0
+      },
+      {
+        "description": "2x6x10 Douglas Fir #2, bundle",
+        "quantity": 18.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 48240.0
+      }
+    ],
+    "subtotal": null,
+    "tax": null,
+    "total": null,
+    "total_weight_lb": 169655.0
+  },
+  "expected_status": "flagged"
+}

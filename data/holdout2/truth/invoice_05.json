@@ -1,0 +1,30 @@
+{
+  "expected": {
+    "doc_type": "invoice",
+    "doc_number": "INV-17828",
+    "doc_date": "2026-09-02",
+    "counterparty": "Ponderosa Hydraulics Inc",
+    "equipment": null,
+    "line_items": [
+      {
+        "description": "Chain lube 5gal pail",
+        "quantity": 8.0,
+        "unit_price": 76.9,
+        "amount": 615.2,
+        "weight_lb": null
+      },
+      {
+        "description": "Conveyor belting 24in (ft)",
+        "quantity": 112.0,
+        "unit_price": 32.71,
+        "amount": 3663.52,
+        "weight_lb": null
+      }
+    ],
+    "subtotal": 4278.72,
+    "tax": 256.72,
+    "total": 4535.44,
+    "total_weight_lb": null
+  },
+  "expected_status": "ok"
+}

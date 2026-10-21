@@ -1,0 +1,44 @@
+{
+  "expected": {
+    "doc_type": "work_order",
+    "doc_number": "WO-2089",
+    "doc_date": "2026-07-24",
+    "counterparty": "Tamarack Electric & Controls",
+    "equipment": "Planer #2",
+    "line_items": [
+      {
+        "description": "Labor: electrician",
+        "quantity": 12.0,
+        "unit_price": 105.0,
+        "amount": 1260.0,
+        "weight_lb": null
+      },
+      {
+        "description": "Bearing 6310 2RS",
+        "quantity": 6.0,
+        "unit_price": 51.94,
+        "amount": 311.64,
+        "weight_lb": null
+      },
+      {
+        "description": "Contactor 40A",
+        "quantity": 4.0,
+        "unit_price": 82.95,
+        "amount": 331.8,
+        "weight_lb": null
+      },
+      {
+        "description": "Drive belt B85",
+        "quantity": 2.0,
+        "unit_price": 31.3,
+        "amount": 62.6,
+        "weight_lb": null
+      }
+    ],
+    "subtotal": null,
+    "tax": null,
+    "total": 1966.04,
+    "total_weight_lb": null
+  },
+  "expected_status": "ok"
+}

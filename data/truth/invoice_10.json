@@ -1,0 +1,37 @@
+{
+  "expected": {
+    "doc_type": "invoice",
+    "doc_number": "INV-72296",
+    "doc_date": "2026-06-15",
+    "counterparty": "Inland Fuel & Lube",
+    "equipment": null,
+    "line_items": [
+      {
+        "description": "Hydraulic hose 3/4in x 50ft",
+        "quantity": 4.0,
+        "unit_price": 131.72,
+        "amount": 526.88,
+        "weight_lb": null
+      },
+      {
+        "description": "Roller chain #80 (ft)",
+        "quantity": 127.0,
+        "unit_price": 12.73,
+        "amount": 1616.71,
+        "weight_lb": null
+      },
+      {
+        "description": "Chain lube 5gal pail",
+        "quantity": 4.0,
+        "unit_price": 65.59,
+        "amount": 262.36,
+        "weight_lb": null
+      }
+    ],
+    "subtotal": 2405.95,
+    "tax": null,
+    "total": 2405.95,
+    "total_weight_lb": null
+  },
+  "expected_status": "ok"
+}

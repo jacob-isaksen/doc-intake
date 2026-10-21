@@ -1,0 +1,51 @@
+{
+  "expected": {
+    "doc_type": "invoice",
+    "doc_number": "INV-48126",
+    "doc_date": "2026-08-15",
+    "counterparty": "Kootenai Safety Supply",
+    "equipment": null,
+    "line_items": [
+      {
+        "description": "Hydraulic hose 3/4in x 50ft",
+        "quantity": 5.0,
+        "unit_price": 108.19,
+        "amount": 540.95,
+        "weight_lb": null
+      },
+      {
+        "description": "Safety glasses (box of 12)",
+        "quantity": 6.0,
+        "unit_price": 55.49,
+        "amount": 332.94,
+        "weight_lb": null
+      },
+      {
+        "description": "Conveyor belting 24in (ft)",
+        "quantity": 120.0,
+        "unit_price": 28.2,
+        "amount": 3384.0,
+        "weight_lb": null
+      },
+      {
+        "description": "Diesel fuel (gal)",
+        "quantity": 660.0,
+        "unit_price": 4.54,
+        "amount": 2996.4,
+        "weight_lb": null
+      },
+      {
+        "description": "Bandsaw blade 1.5in x 24ft",
+        "quantity": 6.0,
+        "unit_price": 214.47,
+        "amount": 1286.82,
+        "weight_lb": null
+      }
+    ],
+    "subtotal": 8541.11,
+    "tax": 512.47,
+    "total": 9053.58,
+    "total_weight_lb": null
+  },
+  "expected_status": "ok"
+}

@@ -1,0 +1,44 @@
+{
+  "expected": {
+    "doc_type": "bill_of_lading",
+    "doc_number": "BOL-800305",
+    "doc_date": "2026-08-17",
+    "counterparty": "Summit Fence & Deck",
+    "equipment": null,
+    "line_items": [
+      {
+        "description": "2x10x16 Larch #2, bundle",
+        "quantity": 5.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 18275.0
+      },
+      {
+        "description": "2x4x8 SPF stud, bundle",
+        "quantity": 5.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 12400.0
+      },
+      {
+        "description": "1x6x8 Cedar fence board, bundle",
+        "quantity": 19.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 22401.0
+      },
+      {
+        "description": "2x6x10 Douglas Fir #2, bundle",
+        "quantity": 10.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 27440.0
+      }
+    ],
+    "subtotal": null,
+    "tax": null,
+    "total": null,
+    "total_weight_lb": 80516.0
+  },
+  "expected_status": "ok"
+}

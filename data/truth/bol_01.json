@@ -1,0 +1,30 @@
+{
+  "expected": {
+    "doc_type": "bill_of_lading",
+    "doc_number": "BOL-542374",
+    "doc_date": "2026-07-19",
+    "counterparty": "Prairie Home Centers",
+    "equipment": null,
+    "line_items": [
+      {
+        "description": "2x10x16 Larch #2, bundle",
+        "quantity": 9.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 32823.0
+      },
+      {
+        "description": "1x6x8 Cedar fence board, bundle",
+        "quantity": 4.0,
+        "unit_price": null,
+        "amount": null,
+        "weight_lb": 5304.0
+      }
+    ],
+    "subtotal": null,
+    "tax": null,
+    "total": null,
+    "total_weight_lb": 38127.0
+  },
+  "expected_status": "ok"
+}
