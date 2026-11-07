@@ -2,6 +2,8 @@
 
 A small pipeline that reads messy business paperwork (invoices, bills of lading, work orders), uses an LLM to pull out structured data, **checks the model's work with rules**, and stores the result in SQLite for reporting.
 
+I built this with Claude Code as my AI coding assistant, and I read and checked what it wrote. The design choices and the results below are ones I can explain and defend.
+
 The documents are fake. They belong to an invented lumber mill, with invented vendors and numbers, and a few are broken on purpose (missing date, totals that don't add up, an invoice sent twice). The point of the project is not "the AI reads PDFs." It is **what you do when the AI is sometimes wrong.**
 
 ```
